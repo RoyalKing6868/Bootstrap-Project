@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar{
+    background-image: linear-gradient(to right,#c2e1fc,#5f1782);
+    position: fixed;
+    z-index: 10;
+    top: 10;
+    width: 100%;
+    padding: 0 !important;
+    font-weight: 400;
+}
+.navbar-nav li a{
+    text-transform: uppercase;
+    padding: 0 50px;
+    color: #fff;
+}
+.navbar-nav ul{
+    margin-right: 20px;
+}
+.heading{
+    font-size:"54px";
+}
+#banner{
+    background-image: linear-gradient(to right,#c2e1fc,#5f1782);
+    color:#fff;
+    padding-top: 5%;
+}
+.hero-title{
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 25%;
+}
+.container p{
+    text-align: justify;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.ctn{
+    color: #fff;
+    text-decoration: none;
+    background-image: linear-gradient(to right,#c2e1fc,#9240ba);
+    padding:10px;
+    border-radius: 20px;
+}
+.ctn:hover{
+    background-image: linear-gradient(to right,#9240ba,#c2e1fc);
+
+}
+#services{
+    padding: 30px;
+}
+.dev-img{
+    width: 200px;   
+}
+.title-services h1{
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.services h4{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.services p {
+    width: 100% ;
+}
+#services .ctn{
+    border: none;
+    outline: none;
+}
+#About ul li{
+    margin:20px 0;
+}
+#About ul{
+    margin-left:10px ;
+}
+#footer{
+    background-image: linear-gradient(to right,#c2e1fc,#9240ba);
+    color: #fff;
+    font-weight: 400;
+}
+.nav-link{
+    color: #fff;
+}
